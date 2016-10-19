@@ -1,0 +1,51 @@
+.top-container {
+    align-items: center;
+    background: #000;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+
+    nav {
+        position: absolute;
+        z-index: 5;
+
+        ul {
+            background: rgba(0,0,0,.65);
+            border-top: 1px solid $geyser;
+            border-bottom: 1px solid $geyser;
+            padding: 0 $hspace*10;
+            overflow: hidden;
+
+            li {
+                background: transparent;
+                color: $geyser;
+                cursor: pointer;
+                font: 18px/25px #{$lato};
+                float: left;
+                padding: $vspace $hspace;
+                text-transform: uppercase;
+                transition: background .5s ease;
+
+                &:hover {
+                    background: rgba($breaker,.7);
+                }
+            }
+        }
+    }
+
+    video {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .wallpaper {
+        height: 100vh;
+        left: 0;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        z-index: 2;
+    }
+}

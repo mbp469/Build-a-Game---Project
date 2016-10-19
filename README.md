@@ -1,2 +1,4 @@
-# Build-a-Game---Project
-Collaborative Project with Back-End Class
+
+Your Mission
+
+Let's create a website for a game of our choice, for example, Hangman. The mission is to create a site that allows a new user to register, with form validation, then ultimately log into their account. After creating an account, the user will be able to log into their account page where they will see their own stats. How any games have they won/lost? Use this page to store and display any information you feel the user would be interested in seeing. The user should also have the ability to edit any of their details, again, by creative an intuitive form experience. Lastly, the game itself. Pick a game the user can play and use CSS and jQuery to create animations and interactions. For example, if building Hangman, when correct letters are selected, have the letter animate up into place in the word and not simply pop into place replacing the underscore. Feel free to look into subtle audio cues as well to signify correct or incorrect answers. The mission is to create an engaging, responsive, and interactive experience for the user.

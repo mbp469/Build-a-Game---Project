@@ -1,0 +1,38 @@
+.characters-container {
+  align-items: top;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+  .character {
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/greyzz.png) rgba($breaker, .25);
+    background-blend-mode: darken;
+    border: 1px solid $tuatara;
+    margin: 0 $hspace $vspace 0;
+    padding: $vspace $hspace;
+    text-align: center;
+    transition: background .5s ease;
+    width: 240px;
+
+    &:hover {
+      background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/greyzz.png) rgba($breaker, .55);
+    }
+
+    img {
+      border: 3px solid $tuatara;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+
+    h3 {
+      font: 20px/28px #{$lato};
+      padding: $vspace/2 0;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.seasons {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dirty_old_shirt.png) #333;
+  color: $geyser;
+
+  h2 span {
+    color: darken($geyser, 5%);
+    cursor: pointer;
+    display: inline-block;
+    font: 18px/25px #{$raleway};
+    transition: color .25s ease;
+
+    &:hover, &.active {
+      color: #fff;
+    }
+  }
+
+  p {
+    color: $geyser;
+    display: none;
+
+    &:first-of-type {
+      display: block;
+    }
+  }
+}
