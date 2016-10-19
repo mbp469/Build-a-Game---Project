@@ -84,7 +84,7 @@ module.exports = function(grunt) {
         haml: {
             dist: {
                 files: {
-                    'index-haml.html': 'index.haml'
+                    'index.html': 'index.haml'
                 }
             }
         },
